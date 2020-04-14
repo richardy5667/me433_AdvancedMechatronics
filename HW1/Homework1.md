@@ -1,6 +1,6 @@
 # Homework 1
 
-###Part 1: Voltage Regulator
+##Part 1: Voltage Regulator
 
 Output Voltage Without Bypass Capacitors:
 ![nocap](nocap.png)
@@ -9,14 +9,14 @@ Output Voltage With Red LED:
 Output Voltage with LED and Bypass Capacitors:
 ![withLEDcap](withLEDcap.png)
 
-###Part 2: PIC32 Minimum Connections
+##Part 2: PIC32 Minimum Connections
 
 Circuit Diagram:
 ![circuit_diagram](circuit_diagram.jpg)
 Built Circuit:
 ![built_circuit](built_circuit.jpg)
 
-###Part 3: Blink Program
+##Part 3: Blink Program
 
 [Code](https://github.com/richardy5667/me433_AdvancedMechatronics/blob/master/HW1/HW1.X/main.c)
 
