@@ -1,5 +1,6 @@
-# Homework 1
+# ME433 Homework 1
 
+Richard Yeh
 ### Part 1: Voltage Regulator
 
 Output Voltage Without Bypass Capacitors:
