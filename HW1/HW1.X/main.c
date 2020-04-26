@@ -63,11 +63,11 @@ int main() {
             int i;
             for (i=0;i<2;i++){
                 _CP0_SET_COUNT(0);
-                while(_CP0_GET_COUNT()<24000000/2){
+                while(_CP0_GET_COUNT()<24000000/2){ //0.5 seconds
                     LATAbits.LATA4=1;
                 }
                 _CP0_SET_COUNT(0);
-                while(_CP0_GET_COUNT()<24000000/2){
+                while(_CP0_GET_COUNT()<24000000/2){ //0.5 seconds
                     LATAbits.LATA4=0;
                 }
             }
