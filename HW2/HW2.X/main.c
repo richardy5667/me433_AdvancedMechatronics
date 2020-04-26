@@ -74,13 +74,11 @@ int main() {
     }
     initSPI();
     while (1) {
-        // use _CP0_SET_COUNT(0) and _CP0_GET_COUNT() to test the PIC timing
-        // remember the core timer runs at half the sysclk
         for(i=0;i<100;i++){
             SPI_write(triangle[i],0);
             SPI_write(sine[i],1);
             _CP0_SET_COUNT(0);
-            while (_CP0_GET_COUNT()<24000000/100){
+            while (_CP0_GET_COUNT()<24000000/100){ //100 times a second
                 ;
             }
         }
