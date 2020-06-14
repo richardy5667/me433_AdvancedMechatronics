@@ -64,7 +64,7 @@ int main() {
     double time=0;    
     while (1){        
         _CP0_SET_COUNT(0);
-        ssd1306_drawMessage(0,0,"Hi Jubi! :)");
+        ssd1306_drawMessage(0,0,"HELLOOOOOO :)");
         char message[50];
         sprintf(message,"Seconds=%d",sec);
         ssd1306_drawMessage(0,24,message);
